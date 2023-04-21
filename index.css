@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 50px;
+    min-height: 1000px;
+    /* background: violet; */
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /* box-shadow: 0px 35px 55px lightcoral; */
+    border-radius: 50%;
+}
+.line{
+    line-height: 20px;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    
+}
+.profileText .imgbx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.profileText .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .left-side{
+    position: relative;
+    background: pink;
+    padding: 40px;
+    border-radius: 15px 0px 0px 15px;
+}
+.container .right-side{
+    position: relative;
+    background: white;
+    padding: 40px;
+    border-radius: 0px 15px 15px 0px;
+}
+.profileText{
+    color: lightskyblue;
+    font-size: 1em;
+    line-height-step: 7px;
+    /* margin-top: 10px; */
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    padding-bottom: 10px;
+}
+.profileText h2 span{
+    font-size: 0.8e;
+    
+}
+
+.contact{
+    padding-top: 40px;
+}
+.title{
+    color: lightskyblue;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.contact P{
+    position: relative;
+    list-style: none;
+
+}
+.contact ul li{
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+    
+    
+}
+.contact p .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: lightskyblue;
+    list-style: none;
+
+}
+.contact P span{
+    color: black;
+    font-weight: 300;
+}
+.education1{
+    padding-top: 50px;
+} 
+.educatio1 h2{
+    color: lightskyblue;
+    font-weight: bold;
+} 
+.title2{
+    color: lightskyblue;
+}
+.para{
+    color: lightskyblue;
+
+    
+}
+.laungaes{
+    padding-top: 40PX;
+}
+.lang{
+    color: lightskyblue;
+    font-weight: bold;
+    
+}
+.laungaes h2{
+    font-weight: bold;
+}
+.laungaes p3{
+    color: black;
+    font-weight: bold;
+}
+
+.skill h2{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 16px;
+
+}
+.progress-bar{
+    background: #959595;
+    width: 300px;
+    height: 10px;
+    border-radius: 5px;
+}
+.progress-bar div{
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+    
+}
+.progress-bar div span{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: black;
+    float: right;
+    margin-top: -6px;
+    margin-right: -4px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+.html{
+    background: lightskyblue;
+    animation: html 1s linear forwards;
+}
+.css{
+    background: lightskyblue;
+    animation: css 1s linear forwards;
+}
+.javascript{
+    background: lightskyblue;
+    animation: javascript 1s linear forwards;
+}
+.react{
+    background: lightskyblue;
+    animation: react 1s linear forwards;
+}
+.html span{
+    border: 1px solid #e91e63;
+}
+.css span{
+    border: 1px solid #cddc39;
+}
+.javascript span{
+    border: 1px solid #00bcd4;
+}
+.react span{
+    border: 1px solid #9c27b0;
+}
+@keyframes html{
+    100%{
+        width: 94%;
+    }
+}
+@keyframes css{
+    100%{
+        width: 87%;
+    }
+}
+@keyframes javascript{
+    100%{
+        width: 65%;
+    }
+}
+@keyframes react{
+    100%{
+        width: 56%;
+    }
+}
+
+.skills{
+    padding-top: 100px;
+}
+
+
+.skillS h2{
+    /* font-weight: 400; */
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: lightskyblue;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 20PX;
+
+}
+.ball{
+    background: #959595;
+    width: 300px;
+    height: 10px;
+    border-radius: 5px;
+}
+.ball div{
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+    
+}
+.ball div span{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: black;
+    float: right;
+    margin-top: -6px;
+    margin-right: -4px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+.english{
+    background: lightskyblue;
+    animation: html 1s linear forwards;
+    
+}
+.kiswahili{
+    background: lightskyblue;
+    animation: css 1s linear forwards;
+    
+}
+.kinyarwanda{
+    background: lightskyblue;
+    animation: css 1s linear forwards;
+    
+}
+
+.english span{
+    border: 1px solid lightskyblue;
+}
+.kiswahili span{
+    border: 1px solid lightskyblue;
+}
+.kinyarwanda span{
+    border: 1px solid lightskyblue;
+}
+
+
+@keyframes english{
+    100%{
+        width: 82%;
+    }
+}
+@keyframes kiswahili{
+    100%{
+        width: 62%;
+    }
+}
+@keyframes kinyarwanda{
+    100%{
+        width: 85%;
+    }
+}
+.game{
+    padding-top: 20px;
+    color: lightseagreen;
+    padding-left: 100px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.game1{
+    color: blue;
+    font-weight: bold;
+}
+.game2{
+    color: black;
+    font-weight: bold; 
+}
+.much{
+    padding-bottom: 50px;
+}
+.expo{
+    padding-top: 30px;
+}
+.expo h2{
+    color: lightskyblue;
+    font-weight: bold;
+}
+.skills h2{
+    color: lightskyblue;
+}
+.right-side h1{
+    color: lightskyblue;
+    padding-left: 50px;
+    font-weight: bold;
+}
+.right-side h2{
+    color: lightskyblue;
+    font-weight: bold;
+}
+.ref h2{
+    color: black;
+    font-weight: bold;
+}
+.ref{
+    padding-top: 40px;
+}
+.ref p2 span{
+    color: blue;
+
+}
+.ref p{
+    padding-top: 20px;
+}
+.hoby{
+    padding-top: 30px;
+}
+.hoby h2{
+    color: lightskyblue;
+    font-weight: bold;
+}
+
+
+
+
+
+
